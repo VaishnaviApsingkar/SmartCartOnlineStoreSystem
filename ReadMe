@@ -1,0 +1,81 @@
+Steps to follow for executing the online store:
+
+1. Start rmiregistry on 2002 port (or any other, but use the one which is mentioned in the code)
+on server machine 
+
+2. Run “make clean” for removing all files apart from original source files.
+
+3. Compile all the java files using “make” command
+
+4. Execute “make server” to start server program and run the server (OnlineStoreServer) class
+
+5. Execute “make client” to start client program and run the client (OnlineStoreClient) class
+
+6. Choose the option in the terminal to select the appropriate role:
+  a. Enter 1, for Admin login.
+  b. Enter 2, for User login.
+
+#If selected Admin role:
+1. If an existing Admin account holder, please Enter 1. And, for creating new Admin account
+please Enter 2 and provide desired username and password.
+2. To login in an existing Admin account
+Enter admin username: adminname1
+Enter admin password: adminpass1
+(Note: credentials are predefined in the program for verification purpose.)
+3. For Admin following functionality is available. Please select the appropriate option based on
+needs.
+Select an option:
+1. Browse Item
+“Browse Item” action allows admin to browse all the items that are available in store for
+purchase and provide their detailed information.
+2. Update Item
+“Update Item” action allows admin to edit the product description and product prices.
+3. Remove Item
+“Remove Item” action allows admin to remove the item from the store based on the item
+ID
+4. Add Item
+“Add Item” action allows admin to add item to the store.
+5. Exit
+“Exit” action logs out admin from the account.
+
+#If selected User role:
+1. If an existing User account holder please Enter 1. And, for creating new User account please
+Enter 2 and provide desired username and password.
+
+2. To login in an existing User account
+Provide username : username1
+Provide password: pass1
+(Note: credentials are predefined in the program for verification purpose.)
+
+3. For User following functionality is available. Please select the appropriate option based on
+needs.
+
+Select an option:
+  
+  i. Browse Items
+  “Browse Item” action allows user to browse all the items that are available in store for
+  purchase and provide their detailed information.
+  
+  ii. Add item to cart
+  “Add item to cart” action allows user to add item to the cart. This can be done by providing
+  input to the prompt.
+  Provide Item Id:
+  Provide Item quantity:
+  
+  iii. Remove item from cart
+  “Remove item from cart” action allows user to remove the Item already added to the cart.
+  This can be done by providing input to the prompt.
+  Enter the item ID:
+  
+  iv. Update item quantity
+  “Update item quantity” action allows user to update the quantity of item already added
+  to the cart. This can be done by providing input to the prompts.
+  Provide item ID:
+  Provide item quantity:
+  
+  v. Display cart items
+  “Display cart items” action allows user to check the items added to the cart.
+  
+  vi. Display total bill from cart
+  “Display total bill from cart” action allows user to display total bill for all items added to
+  the cart.
