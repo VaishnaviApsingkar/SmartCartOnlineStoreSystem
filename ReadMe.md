@@ -77,9 +77,7 @@ It follows various **design patterns** such as **Factory, Command, Template, and
    - Enter `1` for **Admin login** 🛠️.
    - Enter `2` for **User login** 👤.
 
----
-
-# **If Admin Role is Selected:** 👩‍💼👨‍💼
+### **If Admin Role is Selected:** 👩‍💼👨‍💼
 
 1. If you're an **existing Admin** account holder, enter `1`.  
    For creating a new **Admin** account, enter `2` and provide the desired username and password. 📝
@@ -109,7 +107,7 @@ It follows various **design patterns** such as **Factory, Command, Template, and
 
 ---
 
-# **If User Role is Selected:** 👩‍💻👨‍💻
+### **If User Role is Selected:** 👩‍💻👨‍💻
 
 1. If you're an **existing User** account holder, enter `1`.  
    For creating a new **User** account, enter `2` and provide the desired username and password. 📝
