@@ -1,12 +1,67 @@
-# **SMARTCART ONLINE STORE SYSTEM** 🛒
+# 🛒Smart Cart Online Store System
 
-SmartCart Online Store System is implemented using the **Java** language with **Object-Oriented Programming** concepts. This system is designed for customers to browse and purchase items, and for admins to manage the items available in the store. 
+🚀 SmartCart Online Store System is implemented using the **Java** language with **Object-Oriented Programming** concepts. This system is designed for customers to browse and purchase items, and for admins to manage the items available in the store. 
 
 The provided skeleton code is for implementing functionality of the system. The class diagram shows the relationship between the classes, their attributes and methods, and the domain model diagram shows the connections and interactions between the entities in the system. It is easier to build upon the skeleton code to create a functional online store management system with a proper understanding of the structure of the diagrams and the relationships between them.
 
 ---
 
-## **Steps to Follow for Executing the Online Store:**
+## 📜 Introduction
+The **Smart Cart Online Store System** is developed using **Java** with **Object-Oriented Programming (OOP)** principles. This system allows:
+- 🛒 **Customers** to browse, add, remove, update, and purchase items.
+- 🛠️ **Admins** to manage store items, including adding, updating, and removing products.
+
+It follows various **design patterns** such as **Factory, Command, Template, and MVC** and uses **Java RMI** for server-client communication.
+
+---
+
+## 📂 Project Structure
+```
+📦 OnlineStoreManagementSystem
+ ├── 📁 src
+ │   ├── 📄 **OnlineStoreInt.java**  # Interface for remote methods
+ │   ├── 📄 **OnlineStore.java**     # Business logic implementation
+ │   ├── 📄 **Item.java**            # Represents an item in store
+ │   ├── 📄 **CartItem.java**        # Represents an item in shopping cart
+ │   ├── 📄 **ShopCart.java**        # Shopping cart operations
+ │   ├── 📄 **Command.java**         # Command interface
+ │   ├── 📄 **CommandAddItem.java**  # Command to add item
+ │   ├── 📄 **CommandUpdateItem.java** # Command to update item
+ │   ├── 📄 **CommandRemoveItem.java** # Command to remove item
+ │   ├── 📄 **OnlineStoreFactoryInt.java** # Factory interface
+ │   ├── 📄 **OnlineStoreFactoryDefault.java** # Factory class implementation
+ │   ├── 📄 **OnlineStoreClient.java** # Client-side interaction
+ │   ├── 📄 **OnlineStoreServer.java** # Server-side operations
+```
+
+---
+
+## 🎯 Features
+### 👥 **User Functionalities**
+- 🛍️ **Browse** available items.
+- ➕ **Add** items to the shopping cart.
+- ✏️ **Update** item quantity.
+- ❌ **Remove** items from the cart.
+- 💰 **Checkout** and purchase items.
+
+### 🏪 **Admin Functionalities**
+- 🏗️ **Add** new items to the store.
+- 🔄 **Update** existing products.
+- ❌ **Remove** items from the store.
+- 📜 **View** all store products.
+
+---
+
+## 🎨 **Architectural Design Patterns Used**
+- **🛑 MVC (Model-View-Controller):** Separates concerns of UI, data, and control flow.
+- **🗝️ Authorization Pattern:** Controls access based on roles (Admin/User).
+- **🏭 Factory & Abstract Factory Pattern:** Creates object instances without specifying concrete classes.
+- **📜 Template Pattern:** Defines a blueprint for subclasses.
+- **🔀 Command Pattern:** Encapsulates requests into objects for flexibility.
+
+---
+
+## 🚀 **How to Run**
 
 1. **Start `rmiregistry`** on port `2002` (or any other, but use the one specified in the code) on the server machine. 🔌
    
@@ -24,7 +79,7 @@ The provided skeleton code is for implementing functionality of the system. The 
 
 ---
 
-## **If Admin Role is Selected:** 👩‍💼👨‍💼
+# **If Admin Role is Selected:** 👩‍💼👨‍💼
 
 1. If you're an **existing Admin** account holder, enter `1`.  
    For creating a new **Admin** account, enter `2` and provide the desired username and password. 📝
@@ -54,7 +109,7 @@ The provided skeleton code is for implementing functionality of the system. The 
 
 ---
 
-## **If User Role is Selected:** 👩‍💻👨‍💻
+# **If User Role is Selected:** 👩‍💻👨‍💻
 
 1. If you're an **existing User** account holder, enter `1`.  
    For creating a new **User** account, enter `2` and provide the desired username and password. 📝
@@ -92,10 +147,14 @@ The provided skeleton code is for implementing functionality of the system. The 
 
 ---
 
-### **Important Notes:**
+## **Important Notes:**
 
 - **Predefined Credentials**: The program has predefined credentials for both the admin and user roles for easy login and testing. 🔑
   
 - Ensure that you follow the steps in order, as skipping any part may cause issues with system execution. ⚠️
 
 ---
+
+
+## 📜 **License**
+This project is licensed under the **MIT License**.
