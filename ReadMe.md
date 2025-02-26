@@ -1,4 +1,5 @@
 **SMARTCART ONLINE STORE SYSTEM**
+
 SmartCart Online Store System is implemented using the Java language with Object Oriented
 Programming concepts. This system is designed for the customers to browse, purchase items
 and for admins to manage the items available in store. The provided skeleton code is for
@@ -10,7 +11,7 @@ structure of diagrams and the relationship between them.
 
 
 
-Steps to follow for executing the online store:
+**Steps to follow for executing the online store:**
 
 1. Start rmiregistry on 2002 port (or any other, but use the one which is mentioned in the code)
 on server machine 
