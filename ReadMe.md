@@ -19,19 +19,19 @@ It follows various **design patterns** such as **Factory, Command, Template, and
 ```
 📦 OnlineStoreManagementSystem
  ├── 📁 src
- │   ├── 📄 **OnlineStoreInt.java**  # Interface for remote methods
- │   ├── 📄 **OnlineStore.java**     # Business logic implementation
- │   ├── 📄 **Item.java**            # Represents an item in store
- │   ├── 📄 **CartItem.java**        # Represents an item in shopping cart
- │   ├── 📄 **ShopCart.java**        # Shopping cart operations
- │   ├── 📄 **Command.java**         # Command interface
- │   ├── 📄 **CommandAddItem.java**  # Command to add item
- │   ├── 📄 **CommandUpdateItem.java** # Command to update item
- │   ├── 📄 **CommandRemoveItem.java** # Command to remove item
- │   ├── 📄 **OnlineStoreFactoryInt.java** # Factory interface
- │   ├── 📄 **OnlineStoreFactoryDefault.java** # Factory class implementation
- │   ├── 📄 **OnlineStoreClient.java** # Client-side interaction
- │   ├── 📄 **OnlineStoreServer.java** # Server-side operations
+ │   ├── 📄 OnlineStoreInt.java  # Interface for remote methods
+ │   ├── 📄 OnlineStore.java     # Business logic implementation
+ │   ├── 📄 Item.java            # Represents an item in store
+ │   ├── 📄 CartItem.java        # Represents an item in shopping cart
+ │   ├── 📄 ShopCart.java        # Shopping cart operations
+ │   ├── 📄 Command.java         # Command interface
+ │   ├── 📄 CommandAddItem.java  # Command to add item
+ │   ├── 📄 CommandUpdateItem.java # Command to update item
+ │   ├── 📄 CommandRemoveItem.java # Command to remove item
+ │   ├── 📄 OnlineStoreFactoryInt.java # Factory interface
+ │   ├── 📄 OnlineStoreFactoryDefault.java # Factory class implementation
+ │   ├── 📄 OnlineStoreClient.java # Client-side interaction
+ │   ├── 📄 OnlineStoreServer.java # Server-side operations
 ```
 
 ---
@@ -76,6 +76,8 @@ It follows various **design patterns** such as **Factory, Command, Template, and
 6. Choose the appropriate role in the terminal:
    - Enter `1` for **Admin login** 🛠️.
    - Enter `2` for **User login** 👤.
+
+---
 
 ### **If Admin Role is Selected:** 👩‍💼👨‍💼
 
@@ -153,6 +155,4 @@ It follows various **design patterns** such as **Factory, Command, Template, and
 
 ---
 
-
-## 📜 **License**
-This project is licensed under the **MIT License**.
+Made with ❤️ by **Vaishnavi Pravin Apsingkar**
